@@ -11,7 +11,8 @@ const App = () => {
     } 
 
     const handleCharacter = async (text, index) => {
-        const char = text.charAt(index);
+        console.log(text, index, text.charAt)
+        const char = text[index];
         const response = await fetch(`http://localhost:8000/character_lookup/${char}`);
         const json_response = await response.json();
         if (json_response.length > 0)

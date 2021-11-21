@@ -1,0 +1,8 @@
+.defined-word:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.defined-word {
+    font-size: 1.5rem;
+}

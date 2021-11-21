@@ -1,16 +1,31 @@
-.word:hover {
-    background-color: yellow;
-    cursor: pointer;
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.word {
-    font-size: 1.5rem;
+.col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.definition-header {
-    font-size: 3rem;
+.align-center {
+    align-items: center;
 }
 
-.definition-body {
-    font-size: 2rem;
+.justify-center {
+    justify-content: center;
+}
+
+.word-list-column {
+    width: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.expanded-definition-column {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
